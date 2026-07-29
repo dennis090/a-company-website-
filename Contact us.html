@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+    <style>
+      h2 {
+        padding-left: 100px;
+      }
+      #contact {
+        color: white;
+        width: 400px;
+        background-color: darkblue;
+        border: 1px solid black;
+        border-collapse: collapse;
+        border-radius: 20px;
+        margin-left: 500px;
+      }
+      .contact-form {
+        margin: 30px 30px;
+      }
+      .btn23 {
+        margin-left: 300px;
+        background-color: red;
+        color: white;
+      }
+      @media screen and (max-width: 768px) {
+        #contact {
+          margin-left: 0px;
+        }
+      }
+    </style>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section id="nav-section">
+      <img
+        class="logoImage"
+        src="images/fastwaybtc-logo.jpg"
+        alt="logo image"
+        width="100px"
+      />
+      <nav class="nav-items">
+        <ul class="nav-link">
+          <li><a href="#">Home</a></li>
+          <li><a href="About us.html">About us</a></li>
+          <li><a href="Contact us.html">Contact us</a></li>
+        </ul>
+      </nav>
+    </section>
+    <h1 class="abouth1">Contact Us</h1>
+    <h2 id="id1">fill the form to contact us</h2>
+    <br />
+    <section id="contact">
+      <form action="" class="contact-form">
+        <label for="fname">FirstName:</label>
+        <input type="text" id="fname" placeholder="FirstName" /><br />
+        <br />
+        <label for="lname">LastName:</label>
+        <input type="text" id="lname" placeholder="LastName" /> <br />
+        <br />
+        <label for="Email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" id="Email" placeholder="Enter your Email here " />
+        <br />
+        <br />
+        <button
+          class="btn23"
+          onclick="document.getElementById('id1').style.color='red'"
+        >
+          Submit
+        </button>
+      </form>
+    </section>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <section id="footer"><h4>&copy; 2025</h4></section>
+  </body>
+</html>
